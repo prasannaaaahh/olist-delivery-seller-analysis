@@ -1,0 +1,1 @@
+SELECT * FROM seller_scores; -- Table is created by notebook 04

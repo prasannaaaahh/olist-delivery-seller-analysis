@@ -1,0 +1,19 @@
+check,rows_affected
+duplicate order_id in orders,0
+approved before purchase,0
+carrier pickup before purchase,166
+customer delivery before purchase,0
+customer delivery before carrier pickup,23
+estimated delivery before purchase,0
+status delivered but no delivery date,8
+status not delivered but has delivery date,6
+order_items with no matching order,0
+orders with no items,775
+orders with more than one seller,1278
+orders with more than one payment row,2961
+orders with more than one review,547
+duplicate review_id values,814
+review score outside 1-5,0
+items with price <= 0,0
+customer_id rows vs unique people,3345
+products with category not in translation table,13
